@@ -2,7 +2,7 @@ module.exports.config = {
  name: "antiout",
  eventType: ["log:unsubscribe"],
  version: "0.0.1",
- credits: "𝙆𝙞𝙣𝙜 𝘾𝙝𝙖𝙩 𝘽𝙤𝙩,
+ credits: "𝙆𝙞𝙣𝙜 𝘾𝙝𝙖𝙩 𝘽𝙤𝙩",
  description: "Listen events"
 };
 
