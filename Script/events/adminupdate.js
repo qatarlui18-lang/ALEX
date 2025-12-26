@@ -2,7 +2,7 @@ module.exports.config = {
 name: "adminUpdate",
 eventType: ["log:thread-admins","log:thread-name", "log:user-nickname","log:thread-icon","log:thread-call","log:thread-color"],
 version: "1.0.1",
-credits: "𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁",
+credits: "King chat VIP,
 description: "Update team information quickly",
 envConfig: {
 sendNoti: true,
@@ -25,7 +25,7 @@ try {
         case "log:thread-admins": {  
             if (logMessageData.ADMIN_EVENT == "add_admin") {  
                 dataThread.adminIDs.push({ id: logMessageData.TARGET_ID })  
-                if (global.configModule[this.config.name].sendNoti) api.sendMessage(`»» NOTICE «« Update user ${logMessageData.TARGET_ID}  Admin Power Activate! 🧙‍♂️🔮\n অফিসিয়ালি এখন তুই VIP 😎🎩`, threadID, async (error, info) => {  
+                if (global.configModule[this.config.name].sendNoti) api.sendMessage(`»» NOTICE «« Update user ${logMessageData.TARGET_ID}  Admin Power Activate! 🧙‍♂️🔮\n OFFICIAL VIP MEMBER 😎🎩`, threadID, async (error, info) => {  
                     if (global.configModule[this.config.name].autoUnsend) {  
                         await new Promise(resolve => setTimeout(resolve, global.configModule[this.config.name].timeToUnsend * 1000));  
                         return api.unsendMessage(info.messageID);  
