@@ -2,7 +2,7 @@ module.exports.config = {
  name: "autosend",
  eventType: [],
  version: "0.0.1",
- credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+ credits: "𝙆𝙞𝙣𝙜 𝘾𝙝𝙖𝙩 𝘽𝙤𝙩",
  description: "Listen events"
 };
 
